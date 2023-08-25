@@ -27,3 +27,6 @@ function updateCountdown(days, hours, minutes, seconds) {
 window.addEventListener('contextmenu', function (e) {
     e.preventDefault();
 });
+function disableScroll() {
+    document.body.style.overflow = 'hidden';
+  }
